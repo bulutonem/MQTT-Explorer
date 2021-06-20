@@ -5,4 +5,4 @@ services:
     image: mqttexplorer:devstable
     restart: always
     ports:
-      - 8125:4000
+      - 8125:5900

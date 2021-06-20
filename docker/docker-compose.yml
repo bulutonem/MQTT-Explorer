@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mqttexplorer:
+    container_name: mqtt-explorer
+    image: mqttexplorer:devstable
+    restart: always
+    ports:
+      - 8125:4000
